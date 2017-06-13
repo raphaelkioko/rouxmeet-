@@ -1,0 +1,14 @@
+<article class="speakerslist">
+  <section class="layout">
+      <div class="speakers">
+        {{#each artists}}
+  	   <article class="artist group">
+  	      <h3>{{this.title}} <span class="small">with <a href="/speakers/{{this.shortname}}">{{this.name}}</a></span></h3>
+  	      <p><a href="/speakers/{{this.shortname}}"><img src="/images/speakers/{{this.shortname}}_tn.jpg" alt="Photo of {{this.name}}" class="speaker">
+                
+          </a></p>
+  	    </article>
+  	 {{/each}}
+      </div>
+  </section>	      
+</article>

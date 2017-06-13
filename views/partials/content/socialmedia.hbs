@@ -1,0 +1,9 @@
+<article class="socialmediaicons">
+    <span class="title">Join the movement: </span>
+    <ul class="group">
+    	{{#each appdata.social}}
+    	    <li><a href="{{ this.url }}"><img src="{{this.img}}" alt="icon for {{ this.shortname }}" class="icon"></a></li>
+    	{{/each}}
+    </ul>
+
+</article>
